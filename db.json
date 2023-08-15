@@ -1,0 +1,156 @@
+{
+  "versao": [
+    {
+      "id": 1,
+      "name": "Mortal Kombat",
+      "personagem": [
+        {
+          "id": 1,
+          "name": "Jhonny Cage",
+          "fatality": [
+            {
+              "id": 1,
+              "name": "Fatality 1",
+              "comando": "Frente, Frente, Frente, Soco Alto"
+            }
+
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Sonya Blade",
+          "fatality": [
+            {
+              "id": 1,
+              "name": "Fatality 1",
+              "comando": "Frente, Frente, Trás, Trás, Bloqueio"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "name": "Sub-Zero",
+          "fatality": [
+            {
+              "id": 1,
+              "name": "Fatality 1",
+              "comando": "Frente, Baixo, Frente, Soco Alto (perto do oponente)"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Liu Kang",
+          "fatality": [
+            {
+              "id": 1,
+              "name": "Fatality 1",
+              "comando": "Frente, Cima, Trás, Baixo, Frente"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Scorpion",
+          "fatality": [
+            {
+              "id": 1,
+              "name": "Fatality 1",
+              "comando": "Cima, Cima (enquanto segura o botão de Bloqueio e na distância de uma rasteira do adversário)"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Kano",
+          "fatality": [
+            {
+              "id": 1,
+              "name": "Fatality 1",
+              "comando": "Trás, Frente, Soco Baixo (perto do oponente)"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Raiden",
+          "fatality": [
+            {
+              "id": 1,
+              "name": "Fatality 1",
+              "comando": "Frente, Trás, Trás, Trás, Soco Alto (perto do oponente)"
+            }
+          ]
+        }  
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mortal Kombat 2",
+      "personagem": [
+        {
+          "id": 1,
+          "name": "Liu Kang"
+        },
+        {
+          "id": 2,
+          "name": "Kung Lau"
+        },
+        {
+          "id": 3,
+          "name": "Jonny Cage"
+        },
+        {
+          "id": 4,
+          "name": "Reptile"
+        },
+        {
+          "id": 5,
+          "name": "Sub-Zero"
+        },
+        {
+          "id": 6,
+          "name": "Shang Tsung"
+        },
+        {
+          "id": 7,
+          "name": "Kitana"
+        },
+        {
+          "id": 8,
+          "name": "Jax"
+        },
+        {
+          "id": 9,
+          "name": "Milena"
+        },
+        {
+          "id": 10,
+          "name": "Baraka"
+        },
+        {
+          "id": 11,
+          "name": "Scorpion"
+        },
+        {
+          "id": 12,
+          "name": "Raiden"
+        }
+      ]
+
+    },
+    {
+      "id": 3,
+      "name": "Ultimate Mortal Kombat 3"
+    },
+    {
+      "id": 4,
+      "name": "Mortal Kombat 4"
+    },
+    {
+      "id": 5,
+      "name": "Mortal Kombat 5"
+    }
+  ]
+}
