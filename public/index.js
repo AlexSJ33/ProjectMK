@@ -16,8 +16,9 @@ async function fetchDataBase() {
     selectVersion.appendChild(new Option(versao['name']))
     
   });
-
-  }
+  
+  
+}
   
 fetchDataBase()
 
