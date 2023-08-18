@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "Mortal Kombat",
+    "year": "1992"
+  },
+  {
+    "id": 2,
+    "name": "Mortal Kombat II",
+    "year": "1993"
+  },
+  {
+    "id": 3,
+    "name": "Mortal Kombat 3",
+    "year": "1995"
+  },
+  {
+    "id": 4,
+    "name": "Ultimate Mortal Kombat 3",
+    "year": "1996"
+  },
+  {
+    "id": 5,
+    "name": "Mortal Kombat Trilogy",
+    "year": "1996"
+  },
+  {
+    "id": 6,
+    "name": "Mortal Kombat 4 ",
+    "year": "1997"
+  },
+  {
+    "id": 7,
+    "name": "Mortal Kombat Mythologies: Sub-Zero",
+    "year": "1997"
+  },
+  {
+    "id": 8,
+    "name": "Mortal Kombat Gold",
+    "year": "1999"
+  },
+  {
+    "id": 9,
+    "name": "Mortal Kombat: Special Forces",
+    "year": "2000"
+  },
+  {
+    "id": 10,
+    "name": "Mortal Kombat Advance",
+    "year": "2001"
+  },
+  {
+    "id": 11,
+    "name": "Mortal Kombat: Deadly Alliance",
+    "year": "2002"
+  },
+  {
+    "id": 12,
+    "name": "Mortal Kombat: Tournament Edition",
+    "year": "2003"
+  },
+  {
+    "id": 13,
+    "name": "Mortal Kombat: Deception",
+    "year": "2004"
+  },
+  {
+    "id": 14,
+    "name": "Mortal Kombat: Shaolin Monks",
+    "year": "2005"
+  },
+  {
+    "id": 15,
+    "name": "Mortal Kombat: Unchained",
+    "year": "2006"
+  },
+  {
+    "id": 16,
+    "name": "Mortal Kombat: Armageddon",
+    "year": "2006"
+  },
+  {
+    "id": 17,
+    "name": "Mortal Kombat vs. DC Universe",
+    "year": "2008"
+  },
+  {
+    "id": 18,
+    "name": "Mortal Kombat",
+    "year": "2011"
+  },
+  {
+    "id": 19,
+    "name": "Mortal Kombat: Arcade Kollection",
+    "year": "2011"
+  },
+  {
+    "id": 20,
+    "name": "Mortal Kombat Komplete Edition",
+    "year": "2012"
+  },
+  {
+    "id": 21,
+    "name": "Mortal Kombat X",
+    "year": "2015"
+  },
+  {
+    "id": 22,
+    "name": "Mortal Kombat XL",
+    "year": "2016"
+  },
+  {
+    "id": 23,
+    "name": "Mortal Kombat 11",
+    "year": "2019"
+  },
+  {
+    "id": 24,
+    "name": "Mortal Kombat 11: Afthermath",
+    "year": "2020"
+  },
+  {
+    "id": 25,
+    "name": "Mortal Kombat 1",
+    "year": "2023"
+  }
+]

@@ -5,29 +5,33 @@ const personagem = document.getElementById('personagem')
 const selectVersion = document.getElementById("version_mk")
 const selectPersonagem = document.getElementById("personagem")
 
+const url = 'http://botechia.duckdns.org:7780/testemk/mkombat_titulo.json'
 
-async function fetchDataBase() {
-  const response = await fetch('http://localhost:3000/versao')
-  const data = await response.json()
-  //const versao = info[1]["name"]
-  //console.log(info)
-  //console.log(versao)
 
-  data.forEach(function (versao) {
-    let versionName = versao.name;
-    let versionPersonagem = versao.personagem;
-    selectVersion.appendChild(new Option(versionName))
-    })
-  
+async function getMKombatTitles() {
+  const response = await fetch(url)
+  const mktitles = response.json()
+  console.log(mktitles)
 }
-version_mk.addEventListener('change', function(){
-  console.log(version_mk.value)
-  console.log(document.getElementById('version_mk').value)
-})
+getMKombatTitles()
 
 
-personagem.addEventListener('change', function(){
-  console.log(personagem.value)
-})
 
-fetchDataBase()
+//   const mkombat_titulo = await response.json()
+
+//   mkombat_titulo.forEach(function (versao) {
+//     let versionName = versao.name;
+//     let versionPersonagem = versao.personagem;
+//     selectVersion.appendChild(new Option(versionName))
+//     })
+  
+// }
+// version_mk.addEventListener('change', function(){
+//   console.log(version_mk.value)
+//   console.log(document.getElementById('version_mk').value)
+// })
+
+
+// personagem.addEventListener('change', function(){
+//   console.log(personagem.value)
+// })
