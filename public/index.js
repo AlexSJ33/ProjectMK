@@ -7,42 +7,18 @@ const selectPersonagem = document.getElementById("personagem")
 
 const url = '../teste.json'
 
-
 async function getMKombatTitles() {
   const response = await fetch(url)
   const mktitles = await response.json()
-  console.log(mktitles)
 
   mktitles.forEach(element => {
-    const versionName = element.name
-    selectVersion.appendChild(new Option(versionName))
+    option = new Option(element.name, element.id)
+    selectVersion.options[selectVersion.options.length] = option  
+    
   });
-  
-    version_mk.addEventListener('change', function(){
-      console.log(version_mk.value)
-      console.log(document.getElementById('version_mk').value)
-
-
+  version_mk.addEventListener('change', function(){
+    console.log(document.getElementById('version_mk').value)
 
   })
 }
 getMKombatTitles()
-//   const mkombat_titulo = await response.json()
-
-//   mkombat_titulo.forEach(function (versao) {
-//     let versionName = versao.name;
-//     let versionPersonagem = versao.personagem;
-//     selectVersion.appendChild(new Option(versionName))
-//     })
-  
-// }
-// version_mk.addEventListener('change', function(){
-//   console.log(version_mk.value)
-//   console.log(document.getElementById('version_mk').value)
-// })
-
-
-// personagem.addEventListener('change', function(){
-//   console.log(personagem.value)
-// })
-
