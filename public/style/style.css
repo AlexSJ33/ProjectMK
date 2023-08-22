@@ -6,23 +6,22 @@
 body {
   
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .flex-container {
+  height: 90vh;
+  width: 400px;
+  
   display: flex;
   flex-direction: column;
   background-color: #f3ebeb;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   align-items: center;
-
-  height: 90vh;
-  width: 400px;
-  max-width: 100%;
-  overflow: hidden;  
+  
 }
 
 .header {
@@ -83,4 +82,11 @@ body {
 hr {
   width: 70%;
   border: 1px solid #6666;
+}
+@media(max-width: 572px) and (max-height:650px) {
+  .flex-container {
+    
+    height: 450px
+  }
+
 }
