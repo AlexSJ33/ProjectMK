@@ -1,50 +1,36 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body {
   
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #91cbde;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
 }
-.flex-container {
-  height: 90vh;
+.container {
+  height: 680px;
   width: 400px;
   
   display: flex;
   flex-direction: column;
-  background-color: #f3ebeb;
+  background-color: #b6b2b2;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   align-items: center;
   
 }
-
-.header {
-  display: flex;
+.avatar {
+  width: 100px;
+  height: 100px;
   
-  padding: 20px;
-}
-.header h1 {
-  font-size: 28px;
+  border-radius: 100%;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.5);
+  margin: 2rem 0 1rem;
 }
 
-.form-control {
-  display: flex;
-  justify-items: center;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-  position: relative;
-  padding: 10px;
-  flex-direction: column;
-  width: 70%;
-  
-}
-.form-control select {
+.container select {
   display: flex;
   margin-bottom: 5px;
   padding: 10px;
@@ -56,30 +42,34 @@ body {
   text-align: center;
   margin-top: 10px;
 }
-.flex-item h2{
+
+.container hr {
+  margin: 1rem;
+  width: 70%;
+  border: 1px solid #6666;
+  
+}
+.container h2{
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
 }
 
-.flex-item h3{
-  display: flex;
+.container h3{  
   flex-direction: column;
   align-items: left;
-  padding: 20px;
+  padding: 6px;
 }
-.flex-item ul {
+
+.container ul {
   /**background-color: #dddddd;**/
+ 
   color: #201b1b;
   padding: 2rem;
   border-radius: 10px;
   border: 2px solid #6666;
   outline: none;
-  padding-bottom:20rem;
+  padding-bottom:9rem;
   
-}
-hr {
-  width: 70%;
-  border: 1px solid #6666;
 }
