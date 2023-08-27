@@ -90,19 +90,31 @@ body {
   /* border: 2px solid #6666; */
   outline: none;
   padding-bottom:9rem;
+ 
 }
 
 
 .container_rodape {
+  
+  
   background-color: aliceblue;
   background-image:url('../images/back_rodape1.png');
   /* background-size: 500px 500px; */
   background-repeat: no-repeat;
-  
-  
   width: 100%;
-  height: 100%;
+  height: 26.1rem;
+  
+  
 
+}
+.overflow {
+  display: block;
+  flex-direction: column;
+  overflow: auto;
+  
+  max-block-size: 15rem;
+  
+  
 }
 
 /* iPhone 5 */
@@ -145,6 +157,7 @@ body {
   .container ul {
     margin: 0;
     padding: 2rem;
+    
   }
 /* Switch 1280 x 720 */
   
