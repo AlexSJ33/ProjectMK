@@ -3,16 +3,24 @@
   padding: 0;
 }
 body {
-  
+  display: flex;
+  justify-content: center;
+  padding: 22px;
   background-color: #91cbde;
-  display: grid;
-  place-content: center;
-  min-height: 100vh;
   
 }
-.container {
-  height: 680px;
-  width: 400px;
+.top_container {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #b6b2b2;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border: 3px solid #d30707;
 
   background-image:url('../images/back2.png');
   background-size: 600px 280px;
@@ -26,27 +34,28 @@ body {
   /* background-image:url('../images/back1.jpg');
   background-size: 400px 1050px;
   background-repeat: no-repeat; */
-  display: flex;
-  flex-direction: column;
-  background-color: #b6b2b2;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  align-items: center;
-
-  border: 3px solid #d30707;
 
   
 }
+.top_container section{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  
+}
 .avatar {
+  
   width: 100px;
   height: 100px;
   
   border-radius: 100%;
   box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.5);
   margin: 2rem 0 1rem;
+  justify-self: center;
 }
 
-.container select {
+.top_container select {
   display: flex;
   margin-bottom: 5px;
   padding: 10px;
@@ -59,30 +68,44 @@ body {
   margin-top: 10px;
 }
 
-.container hr {
+.top_container hr {
   margin: 0;
   width: 0%;
   border: 1px solid #6666;
-
- 
+  
+  
 }
-.container h2{
+.base_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+  background-color: aliceblue;
+  background-image:url('../images/back_rodape1.png');
+  /* background-size: 500px 500px; */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 26.1rem;
+}
+
+.base_container h2{
   
   color: aliceblue;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: 45px;
 }
 
-.container h3{  
+.base_container h3{  
   color: aliceblue;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   padding: 6px;
 }
 
-.container ul {
+.base_container ul {
   /**background-color: #dddddd;**/
  
   color: #201b1b;
@@ -95,17 +118,6 @@ body {
 }
 
 
-.container_rodape {
-  display:block;
-  flex-basis: content;
-  background-color: aliceblue;
-  background-image:url('../images/back_rodape1.png');
-  /* background-size: 500px 500px; */
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 26.1rem;
-
-}
 .overflow {
   display: block;
   flex-direction: column;
