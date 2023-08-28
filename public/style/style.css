@@ -67,6 +67,7 @@ body {
  
 }
 .container h2{
+  
   color: aliceblue;
   display: flex;
   flex-direction: column;
@@ -95,16 +96,14 @@ body {
 
 
 .container_rodape {
-  
-  
+  display:block;
+  flex-basis: content;
   background-color: aliceblue;
   background-image:url('../images/back_rodape1.png');
   /* background-size: 500px 500px; */
   background-repeat: no-repeat;
   width: 100%;
   height: 26.1rem;
-  
-  
 
 }
 .overflow {
@@ -118,7 +117,7 @@ body {
 }
 
 /* iPhone 5 */
-@media(width: 320px){
+@media(max-width: 320px){
   .container {
     height: 480px;
     width: 280px;
@@ -144,21 +143,38 @@ body {
   .container h2 {
     font-size: 15px;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
+    margin: 0;
   }
 
   .container h3 {
     margin: 0;
     padding: 0;
-    
     font-size: 15px;
   }
 
   .container ul {
+    display: flex;
+    flex-direction: column;
+    
     margin: 0;
-    padding: 2rem;
+    padding: 1rem;
     
   }
+  .container_rodape {
+    
+    display: flex;
+    flex-direction: column;
+    
+    height: 180px;
+    width: 280px;
+  }
+}
+
 /* Switch 1280 x 720 */
-  
+  @media(width: 1280px){
+  .container {
+    height: 480px;
+    width: 280px;
+  }
 }
