@@ -3,15 +3,14 @@
   padding: 0;
 }
 body {
-  display: flex;
-  justify-content: center;
+  
   padding: 22px;
   background-color: #91cbde;
   
 }
-.top_container {
+.container {
   height: 100%;
-  width: 45%;
+  width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,7 +129,7 @@ body {
 }
 
 /* iPhone 5 */
-@media(max-width: 320px){
+/* @media(max-width: 320px){
   .container {
     height: 480px;
     width: 280px;
@@ -182,12 +181,12 @@ body {
     height: 180px;
     width: 280px;
   }
-}
+} */
 
 /* Switch 1280 x 720 */
-  @media(width: 1280px){
+  /* @media(width: 1280px){
   .container {
     height: 480px;
     width: 280px;
   }
-}
+} */
